@@ -50,18 +50,9 @@ const options = {
     multiDevice: true,
     restartOnCrash: start,
     cacheEnabled: false,
-    useChrome: true,
+    useChrome: false,
     killProcessOnBrowserClose: true,
-    throwErrorOnTosBlock: false,
-    chromiumArgs: [
-        '--no-sandbox',
-        '--disable-setuid-sandbox',
-        '--aggressive-cache-discard',
-        '--disable-cache',
-        '--disable-application-cache',
-        '--disable-offline-load-stale-cache',
-        '--disk-cache-size=0'
-    ]
+    throwErrorOnTosBlock: false
 };
 
 create(options)
