@@ -1,8 +1,8 @@
 {
-    "prefix": ["k!", "k."],
+    "prefix": ["."],
     "owners": [""],
     "mangadex": {
-        "username": "",
-        "password": ""
+        "username": "aaa189",
+        "password": "Update password"
     }
 }
