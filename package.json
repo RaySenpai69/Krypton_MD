@@ -9,7 +9,9 @@
   "author": "KatowProject",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1",
+    "@open-wa/wa-automate": "^4.55.2",
+    "axios": "^1.2.3",
+    "fs": "^0.0.1-security",
     "mangadex-full-api": "^3.10.0",
     "moment-timezone": "^0.5.33",
     "node-superfetch": "^0.1.11",
