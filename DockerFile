@@ -1,0 +1,15 @@
+FROM node:lts-bullseye
+
+RUN apt update -y && apt upgrade -y && \
+    apt install -y imagemagick && \
+    apt install -y git && \
+    apt install -y chromium
+
+   
+WORKDIR /
+
+COPY . /
+
+RUN npm i
+
+CMD ["node","index.js"]

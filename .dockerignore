@@ -1,0 +1,5 @@
+node_modules
+package_lock.json
+Kato.data.json
+.node-persist
+_IGNORE_Kato
