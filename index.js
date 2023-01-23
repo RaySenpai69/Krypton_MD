@@ -47,6 +47,7 @@ const options = {
     headless: true,
     qrTimeout: 0,
     authTimeout: 0,
+    multiDevice: true,
     restartOnCrash: start,
     cacheEnabled: false,
     useChrome: true,
