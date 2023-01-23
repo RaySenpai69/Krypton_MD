@@ -50,7 +50,7 @@ const options = {
     multiDevice: true,
     restartOnCrash: start,
     cacheEnabled: false,
-    useChrome: true,
+    useChrome: false,
     killProcessOnBrowserClose: true,
     throwErrorOnTosBlock: false,
     chromiumArgs: [
